@@ -1,0 +1,20 @@
+* {
+    background: blueviolet;
+}
+:root {
+    --hue-neutral: 290;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}
+.questions {
+    --hue: var(--hue-neutral);
+    padding: 3px;
+    align-items: center;
+    border: 3px solid #DC08A;
+    /* background: blueviolet; */
+    border-radius: .7rem;
+    box-shadow: 0 0 10px 2px;
+    max-width: 40%;
+    background-color: hsl(var(--hue), 80%, 20%);
+
+}

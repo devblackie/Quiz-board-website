@@ -20,7 +20,7 @@
                 <label for="reg-no">Registration Number</label>
                 <input type="name" name="reg-no">
                 <button id="start" class="start">Submit</button>
-                <button id="next" class="next ">Next </button>
+                <button id="next" class="next" onclick="next(1)">Next </button>
            
         </form>
     </div>
@@ -31,6 +31,7 @@
         <input type="radio" name="data-type" id="correct10%">Alerts <br>
         <input type="radio" name="data-type">Numbers <br>
         <input type="radio" name="data-type">Booleans <br>
+        <button id="next" class="next" onclick="next(2)">Next </button>
     </div>
     <div class="questions">
         <h2>Select the math operators that returns a remainder</h2>
@@ -38,6 +39,7 @@
         <input type="radio" name="remainder">+ <br>
         <input type="radio" name="remainder" id="correct20%">% <br>
         <input type="radio" name="remainder">* <br>
+        <button id="next" class="next" onclick="next(3)">Next </button>
     </div>
     <div class="questions">
         <h2>Select the non-logical operators</h2>
@@ -45,12 +47,14 @@
         <input type="radio" name="logical">|| <br>
         <input type="radio" name="logical">! <br>
         <input type="radio" name="logical" id="correct30%">% <br>
+        <button id="next" class="next" onclick="next(4)">Next </button>
     </div>
     <div class="questions">
         <h2>Array</h2>
         <p>Is list of data values</p>
         <input type="radio" name="array" id="correct40%">True <br>
         <input type="radio" name="array">False <br>
+        <button id="next" class="next" onclick="next(5)">Next </button>
         
     </div>
     <div class="questions">
@@ -60,6 +64,7 @@
         <input type="radio" name="object">False <br>
         <button name="object">True</button>
         <button name="object">False</button>
+        <button id="next" class="next" onclick="next(6)">Next </button>
     </div>
     <div class="questions">
         <h2>Select the non-conditional statement</h2>
@@ -67,19 +72,21 @@
         <input type="radio" name="conditional-statement">if statement <br>
         <input type="radio" name="conditional-statement">if else statement <br>
         <input type="radio" name="conditional-statement">else if statement <br>
+        <button id="next" class="next" onclick="next(7)">Next </button>
     </div>
     <div class="questions">
         <h2>Function</h2>
         <input type="radio" name="function" id="correct70%">Collection of code that can be reused <br>
         <input type="radio" name="function">List of data values <br>
         <input type="radio" name="function">Have properties and methods <br>
-        
+        <button id="next" class="next" onclick="next(8)">Next </button>
     </div>
     <div class="questions">
         <h2>Select conditional statements</h2>
         <input type="radio" name="loops">while <br>
         <input type="radio" name="loops" id="correct80%">if <br>
         <input type="radio" name="loops">for <br>
+        <button id="next" class="next" onclick="next(9)">Next </button>
         
     </div>
     <div class="questions">
@@ -88,6 +95,7 @@
         <input type="radio" name="ceil">return a random number between 0 and 1 <br>
         <input type="radio" name="ceil" id="correct90%">rounds up a value to its nearest integer <br>
         <input type="radio" name="ceil">rounds down a value to its nearest integer <br>
+        <button id="next" class="next" onclick="next(10)">Next</button>
     </div>
     <div class="questions">
         <h2>Math.random()</h2>
@@ -95,8 +103,9 @@
         <input type="radio" name="random">return a random number between 0 and 1 <br>
         <input type="radio" name="random" id="correct100%">rounds up a value to its nearest integer <br>
         <input type="radio" name="random">rounds down a value to its nearest integer <br>
+        <button id="next" class="next" onclick="next(11)">Next </button>
         <input type="submit" name="submit" value="submit Quiz" onclick="result()">
     </div>
-     
+    
 </body>
 </html>

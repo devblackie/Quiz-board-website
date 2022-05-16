@@ -1,44 +1,45 @@
 function result(){
     var score=0;
-    if (document.getElementById(correct10%).checked)
+    if (document.getElementById('correct1').checked)
     {
         score++;
     }
-    if (document.getElementById(correct20%).checked)
+    if (document.getElementById('correct2').checked)
     {
         score++;
     }
-    if (document.getElementById(correct30%).checked)
+    if (document.getElementById('correct3').checked)
     {
         score++;
     }
-    if (document.getElementById(correct40%).checked)
+    if (document.getElementById('correct4').checked)
     {
         score++;
     }
-    if (document.getElementById(correct50%).checked)
+    if (document.getElementById('correct5').checked)
     {
         score++;
     }
-    if (document.getElementById(correct60%).checked)
+    if (document.getElementById('correct6').checked)
     {
         score++;
     }
-    if (document.getElementById(correct70%).checked)
+    if (document.getElementById('correct7').checked)
     {
         score++;
     }
-    if (document.getElementById(correct80%).checked)
+    if (document.getElementById('correct8').checked)
     {
         score++;
     }
-    if (document.getElementById(correct90%).checked)
+    if (document.getElementById('correct9').checked)
     {
         score++;
     }
-    if (document.getElementById(correct100%).checked)
+    if (document.getElementById('correct10').checked)
     {
         score++;
     }
+    document.write("Your score is:"+score);
 
 }

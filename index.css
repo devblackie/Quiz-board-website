@@ -6,6 +6,7 @@
     padding: 3px;
     border-radius: .8rem;
     width: 400px;
+    display: none;
 
 }
 .form h2, h3 {
@@ -21,7 +22,7 @@
 }
 .questions {
     --hue: var(--hue-neutral);
-    padding: 3px;
+    padding: 30px;
     align-items: center;
     /* background: blueviolet; */
     border-radius: .7rem;
@@ -32,4 +33,7 @@
     margin: 10rem;
     margin-left: 5rem;
 
+}
+.next {
+ margin-top: 10px ;
 }

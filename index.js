@@ -40,6 +40,14 @@ function result(){
     {
         score++;
     }
+    alert('Your score is:'+score);
     document.write("Your score is:"+score);
 
 }
+// display question
+document.getElementsByClassName('exam')[0].style.display="block"; 
+
+ function next(id) {
+    document.getElementsByClassName('exam')[id-1].style.display="none"; 
+    document.getElementsByClassName('exam')[id].style.display="block";
+ }

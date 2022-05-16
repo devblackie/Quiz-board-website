@@ -4,12 +4,12 @@
     <link rel="stylesheet" href="index.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>index.js</script>
+    <script src="index.js"></script>
     <title>Document</title>
 </head>
-<body>
+<div>
 
-    <div class="form">
+    <!-- <div class="form">
         <form action="#">
                 <h2>NELO HIGHSCHOOL</h2>
                 <h3>CODING CLUB</h3>
@@ -20,28 +20,28 @@
                 <label for="reg-no">Registration Number</label>
                 <input type="name" name="reg-no">
                 <button id="start" class="start">Submit</button>
-                <button id="next" class="next" onclick="next(1)">Next </button>
+                <button id="next" class="next" onclick="next(0)">Next </button>
            
         </form>
-    </div>
+    </div> -->
     <!-- names variables given according to keywords from their parent questions -->
-    <div class="questions">
+    <div class="exam">
         <h2>Which of the following is not a data type in Java Script</h2>
         <input type="radio" name="data-type">Strings <br>
         <input type="radio" name="data-type" id="correct10%">Alerts <br>
         <input type="radio" name="data-type">Numbers <br>
         <input type="radio" name="data-type">Booleans <br>
-        <button id="next" class="next" onclick="next(2)">Next </button>
+        <button id="next" class="next" onclick="next(1)">Next </button>
     </div>
-    <div class="questions">
+    <div class="exam">
         <h2>Select the math operators that returns a remainder</h2>
         <input type="radio" name="remainder">/ <br>
         <input type="radio" name="remainder">+ <br>
         <input type="radio" name="remainder" id="correct20%">% <br>
         <input type="radio" name="remainder">* <br>
-        <button id="next" class="next" onclick="next(3)">Next </button>
+        <button id="next" class="next" onclick="next(2)">Next </button>
     </div>
-    <div class="questions">
+    <div class="exam">
         <h2>Select the non-logical operators</h2>
         <input type="radio" name="logical">&& <br>
         <input type="radio" name="logical">|| <br>
@@ -49,7 +49,7 @@
         <input type="radio" name="logical" id="correct30%">% <br>
         <button id="next" class="next" onclick="next(4)">Next </button>
     </div>
-    <div class="questions">
+    <div class="exam">
         <h2>Array</h2>
         <p>Is list of data values</p>
         <input type="radio" name="array" id="correct40%">True <br>
@@ -57,16 +57,14 @@
         <button id="next" class="next" onclick="next(5)">Next </button>
         
     </div>
-    <div class="questions">
+    <div class="exam">
         <h2>Object</h2>
         <p>Have properties and methods just like arrays</p>
         <input type="radio" name="object" id="correct50%">True <br>
         <input type="radio" name="object">False <br>
-        <button name="object">True</button>
-        <button name="object">False</button>
         <button id="next" class="next" onclick="next(6)">Next </button>
     </div>
-    <div class="questions">
+    <div class="exam">
         <h2>Select the non-conditional statement</h2>
         <input type="radio" name="conditional-statement" id="correct60%">while <br>
         <input type="radio" name="conditional-statement">if statement <br>
@@ -74,14 +72,14 @@
         <input type="radio" name="conditional-statement">else if statement <br>
         <button id="next" class="next" onclick="next(7)">Next </button>
     </div>
-    <div class="questions">
+    <div class="exam">
         <h2>Function</h2>
         <input type="radio" name="function" id="correct70%">Collection of code that can be reused <br>
         <input type="radio" name="function">List of data values <br>
         <input type="radio" name="function">Have properties and methods <br>
         <button id="next" class="next" onclick="next(8)">Next </button>
     </div>
-    <div class="questions">
+    <div class="exam">
         <h2>Select conditional statements</h2>
         <input type="radio" name="loops">while <br>
         <input type="radio" name="loops" id="correct80%">if <br>
@@ -89,7 +87,7 @@
         <button id="next" class="next" onclick="next(9)">Next </button>
         
     </div>
-    <div class="questions">
+    <div class="exam">
         <h2>Math.ceil()</h2>
         <input type="radio" name="ceil">returns value of x to the poer of y <br>
         <input type="radio" name="ceil">return a random number between 0 and 1 <br>
@@ -97,13 +95,16 @@
         <input type="radio" name="ceil">rounds down a value to its nearest integer <br>
         <button id="next" class="next" onclick="next(10)">Next</button>
     </div>
-    <div class="questions">
+    <div class="exam">
         <h2>Math.random()</h2>
         <input type="radio" name="random">returns value of x to the poer of y <br>
         <input type="radio" name="random">return a random number between 0 and 1 <br>
         <input type="radio" name="random" id="correct100%">rounds up a value to its nearest integer <br>
         <input type="radio" name="random">rounds down a value to its nearest integer <br>
         <button id="next" class="next" onclick="next(11)">Next </button>
+       
+    </div>
+    <div>
         <input type="submit" name="submit" value="submit Quiz" onclick="result()">
     </div>
     

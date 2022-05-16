@@ -1,25 +1,29 @@
 * {
     background: blueviolet;
 }
-.form {
+body {
+    justify-content: center;
+}
+/* .form {
     background-color: rgb(39, 0, 33);
     padding: 3px;
     border-radius: .8rem;
-    width: 400px;
+    width: 400px; */
+    /* display: none;
 
 }
 .form h2, h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 :root {
     --hue-neutral: 290;
     --hue-wrong: 0;
     --hue-correct: 145;
 }
-.questions {
+.exam {
     --hue: var(--hue-neutral);
     padding: 30px;
     align-items: center;
@@ -27,12 +31,25 @@
     border-radius: .7rem;
     box-shadow: 0 0 10px 2px;
     max-width: 60%; 
-    display: none;
+    /* display: none; */
     background-color: hsl(var(--hue), 80%, 20%);
     margin: 10rem;
     margin-left: 5rem;
 
 }
+.exam input {
+    color: aliceblue;
+}
 .next {
- margin-top: 10px ;
+ margin-top: 20px ;
+ padding: 10px;
+ color: aliceblue;
+ text-align: center;
+ font-weight: 700;
+ cursor: pointer;
+ border-radius: .7rem;
+ background-color: mediumvioletred;
+}
+.next:hover {
+    background-color: mediumpurple;
 }

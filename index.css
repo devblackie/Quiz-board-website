@@ -1,6 +1,7 @@
 * {
     background: blueviolet;
 }
+
 :root {
     --hue-neutral: 290;
     --hue-wrong: 0;
@@ -13,7 +14,10 @@
     /* background: blueviolet; */
     border-radius: .7rem;
     box-shadow: 0 0 10px 2px;
-    max-width: 40%;
+    max-width: 60%; 
+    
     background-color: hsl(var(--hue), 80%, 20%);
+    margin: 10rem;
+    margin-left: 5rem;
 
 }

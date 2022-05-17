@@ -9,29 +9,28 @@
 </head>
 <div>
 
-    <!-- <div class="form">
+    <div class="form">
         <form action="#">
                 <h2>NELO HIGHSCHOOL</h2>
-                <h3>CODING CLUB</h3>
+                <h3 id="club ">CODING CLUB</h3>
                 <label for="name">Surname</label>
-                <input type="text" name="name"><br>
+                <input type="text" name="name" id="form"><br>
                 <label for="name">Other names</label>
                 <input type="text" name="name"><br>
                 <label for="reg-no">Registration Number</label>
                 <input type="name" name="reg-no">
-                <button id="start" class="start">Submit</button>
+                <button id="start" class="start" onclick="inroduction()">Submit</button>
                 <button id="next" class="next" onclick="next(0)">Next </button>
            
         </form>
-    </div> -->
+    </div>
     <!-- names variables given according to keywords from their parent questions -->
     <div class="exam">
         <h2>Which of the following is not a data type in Java Script</h2>
         <input type="radio" name="data-type">Strings <br>
         <input type="radio" name="data-type" id="correct10%">Alerts <br>
         <input type="radio" name="data-type">Numbers <br>
-        <input type="radio" name="data-type">Booleans <br>
-        <button id="next" class="next" onclick="next(1)">Next </button>
+        <input type="radio" name="data-type">Booleans <br> 
     </div>
     <div class="exam">
         <h2>Select the math operators that returns a remainder</h2>
@@ -105,7 +104,7 @@
        
     </div>
     <div>
-        <input type="submit" name="submit" value="submit Quiz" onclick="result()">
+        <input type="submit" name="submit" class="next" value="Submit Quiz" onclick="result()">
     </div>
     
 </body>

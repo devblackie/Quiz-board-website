@@ -1,53 +1,54 @@
 function result(){
     var score=0;
-    if (document.getElementById('correct1').checked)
+    if (document.getElementById('correct10%').checked)
     {
-        score++;
+        score+=10;
     }
-    if (document.getElementById('correct2').checked)
+    if (document.getElementById('correct20%').checked)
     {
-        score++;
+        score+=10;
     }
-    if (document.getElementById('correct3').checked)
+    if (document.getElementById('correct30%').checked)
     {
-        score++;
+        score+=10;
     }
-    if (document.getElementById('correct4').checked)
+    if (document.getElementById('correct40%').checked)
     {
-        score++;
+        score+=10;
     }
-    if (document.getElementById('correct5').checked)
+    if (document.getElementById('correct50%').checked)
     {
-        score++;
+        score+=10;
     }
-    if (document.getElementById('correct6').checked)
+    if (document.getElementById('correct60%').checked)
     {
-        score++;
+        score+=10;
     }
-    if (document.getElementById('correct7').checked)
+    if (document.getElementById('correct70%').checked)
     {
-        score++;
+        score+=10;
     }
-    if (document.getElementById('correct8').checked)
+    if (document.getElementById('correct80%').checked)
     {
-        score++;
+        score+10;
     }
-    if (document.getElementById('correct9').checked)
+    if (document.getElementById('correct90%').checked)
     {
-        score++;
+        score+=10;
     }
-    if (document.getElementById('correct10').checked)
+    if (document.getElementById('correct100%').checked)
     {
-        score++;
+        score+=10;
     }
-    alert('Your score is:'+score);
-    document.write("Your score is:"+score);
+    alert('Your score is:'+score +"%");
+    document.write("Your score is:"+score +"%");
+}    
 
+let form = document.querySelector("#exam");
+let start = document.querySelector("#start");
+
+
+function introduction(){
+    club.innerHTML = ""
+    club.innerHTML = form.value + ",start your quiz";
 }
-// display question
-document.getElementsByClassName('exam')[0].style.display="block"; 
-
- function next(id) {
-    document.getElementsByClassName('exam')[id-1].style.display="none"; 
-    document.getElementsByClassName('exam')[id].style.display="block";
- }

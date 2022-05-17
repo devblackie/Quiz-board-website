@@ -53,3 +53,10 @@ body {
 .next:hover {
     background-color: mediumpurple;
 }
+.btn {
+    display: flex;
+    padding: 10px;
+    border-radius: .7rem;
+    padding-left: 30%;
+    height: 10%;
+}

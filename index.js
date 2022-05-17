@@ -40,8 +40,8 @@ function result(){
     {
         score+=10;
     }
-    alert('Your score is:'+score +"%");
-    document.write("Your score is:"+score +"%");
+    alert(+score +"% scored");
+    document.write(+score +"% scored");
 }    
 
 let form = document.querySelector("#exam");
